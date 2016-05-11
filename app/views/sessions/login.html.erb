@@ -1,17 +1,35 @@
-<h1>Login Page</h1>
+ <div class="top-content">
+          
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 text">
+  <div class="form-top">
+    <div class="form-top-left">
+      <h3>Log In Now</h3>
+        <p>Log in Here:</p>
+    </div>
+    <div class="form-top-divider"></div>
+  </div>
+    <div class="form-bottom ui-widget">
+  <form role="form" action="/login" method="post" class="registration-form">
+    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+    <div class="form-group">
 
-<form action="/login" method="post">
-  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
-  <label for="">username</label>
-  <input type='text' name='username'>
+      <label class="sr-only" for="form-first-name">Username</label>
+        <input type="text" name="name" placeholder="Username..." class="form-first-name form-control" id="form-first-name">
+    </div>
 
-  <label for="">password</label>
-  <input type='password' name='password'>
+    <div class="form-group">
+        <label class="sr-only" for="form-last-name">Password</label>
+        <input type="password" name="password" placeholder="Password..." class="form-last-name form-control" id="form-last-name">
+    </div>
 
-  <button class="btn">login</button>
-
-</form>
-
-<form action="/signup">
-  <button class="btn" >Sign up!</button>
-</form>
+      <p><button type="submit" class="btn">Login!</button></p>
+  </form>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>

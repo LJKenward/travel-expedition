@@ -1,3 +1,21 @@
+.profile-header {
+    height: 400px;
+    background: url('https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5af0e68c41241379a320d9832b7232ce') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
 .profile_header {
   height: 200px;
   display: flex;
@@ -35,7 +53,7 @@
   border-radius: 5px;
   background-color: white;
   text-decoration: none;
-  color:black;
+  color:white;
   position:absolute;
   right:100px;
   top:60px;
