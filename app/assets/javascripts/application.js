@@ -16,3 +16,4 @@
 //= require jQueryUI
 //= require functions
 //= require isotope
+//= require bootstrap-sprockets
