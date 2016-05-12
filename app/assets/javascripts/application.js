@@ -14,6 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require jQueryUI
-//= require functions
 //= require isotope
+<<<<<<< HEAD
 //= require bootstrap-sprockets
+=======
+//= require handlebars
+//= require functions
+>>>>>>> 64ca63393e01784d310b4ad205d12ecc48924625
