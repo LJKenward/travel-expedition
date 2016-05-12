@@ -15,6 +15,6 @@
 //= require turbolinks
 //= require jQueryUI
 //= require isotope
-//= require bootstrap-sprockets
+//= require bootstrap
 //= require handlebars
 //= require functions
