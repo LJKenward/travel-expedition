@@ -6,18 +6,10 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-User.create(name:"Wolf",password:"apple", country:"Australia", email:"email@email.com");
-User.create(name:"Emily",password:"apple", country:"Australia", email:"email@email.com");
-User.create(name:"LJ",password:"apple", country:"Australia", email:"email@email.com");
-User.create(name:"Keithy",password:"apple", country:"Australia", email:"email@email.com");
-Card.create(title:"test0",user_id:1);
-Card.create(title:"test1",user_id:1);
-Card.create(title:"mountain",user_id:1);
-Card.create(title:"waterfall",user_id:1);
-Card.create(title:"test2",user_id:2);
-Card.create(title:"test3",user_id:2);
-Card.create(title:"test3",user_id:3);
-Card.create(title:"test3",user_id:4);
+User.create(name:"keithy",password:"apple", country:"Australia", email:"email@email.com");
+User.create(name:"wolf",password:"apple", country:"Australia", email:"email@email.com");
+User.create(name:"emily",password:"apple", country:"Australia", email:"email@email.com");
+User.create(name:"lj",password:"apple", country:"Australia", email:"email@email.com");
 Country.create(name:"Afghanistan");
 Country.create(name:"Albania");
 Country.create(name:"Algeria");
@@ -256,11 +248,6 @@ Country.create(name:"Yemen");
 Country.create(name:"Yugoslavia");
 Country.create(name:"Zambia");
 Country.create(name:"Zimbabwe");
-CountryCard.create(country_id:1,card_id:1);
-CountryCard.create(country_id:1,card_id:1);
-CountryCard.create(country_id:2,card_id:2);
-CountryCard.create(country_id:3,card_id:3);
-CountryCard.create(country_id:3,card_id:4);
 Tag.create(name:"Food");
 Tag.create(name:"Accommodation");
 Tag.create(name:"Transport");
@@ -269,22 +256,44 @@ Tag.create(name:"Entertainment");
 Tag.create(name:"Shopping");
 Tag.create(name:"Nature");
 Tag.create(name:"Free");
-CardTag.create(card_id: 1, tag_id:1);
-CardTag.create(card_id: 1, tag_id:2);
-CardTag.create(card_id: 2, tag_id:1);
-CardTag.create(card_id: 3, tag_id:3);
-CardTag.create(card_id: 4, tag_id:4);
+
+# France
+
+Card.create(title:"Harry Potter Bridge", user_id:1, image:"http://i.imgbox.com/pwNZMslf.jpg", source:"http://www.travelmag.com/");
+CardTag.create(card_id: 1, tag_id:4);
+CardTag.create(card_id: 1, tag_id:5);
+CountryCard.create(country_id:74,card_id:1)
+
+Card.create(title:"Secret Tower Tunnel Tour", user_id:1, image:"http://i.imgbox.com/F54sHbC3.jpg", source:"http://www.travelmag.com/");
+CardTag.create(card_id: 1, tag_id:4);
+CardTag.create(card_id: 1, tag_id:5);
+CountryCard.create(country_id:74,card_id:1)
+
+Card.create(title:"The Castle of Count Yohan", user_id:1, image:"http://i.imgbox.com/ecXdyqd0.jpg", source:"http://www.travelmag.com/");
+CardTag.create(card_id: 1, tag_id:4);
+CardTag.create(card_id: 1, tag_id:5);
+CountryCard.create(country_id:74,card_id:1)
+
+Card.create(title:"A secret herb magic show", user_id:1, image:"http://i.imgbox.com/wGvsT9pG.jpg", source:"http://www.travelmag.com/");
+CardTag.create(card_id: 1, tag_id:4);
+CardTag.create(card_id: 1, tag_id:5);
+CountryCard.create(country_id:74,card_id:1)
+
+Card.create(title:"Market for just cheese", user_id:1, image:"http://i.imgbox.com/chb9SkDd.jpg", source:"http://www.travelmag.com/");
+CardTag.create(card_id: 1, tag_id:4);
+CardTag.create(card_id: 1, tag_id:5);
+CountryCard.create(country_id:74,card_id:1)
+
+Card.create(title:"Deadliest Art Expo Ever", user_id:1, image:"http://i.imgbox.com/yY7WMqnK.jpg", source:"http://www.travelmag.com/");
+CardTag.create(card_id: 1, tag_id:4);
+CardTag.create(card_id: 1, tag_id:5);
+CountryCard.create(country_id:74,card_id:1)
+
+Card.create(title:"Gothic Drawing Class", user_id:1, image:"http://i.imgbox.com/uNApYN2V.jpg", source:"http://www.travelmag.com/");
+CardTag.create(card_id: 1, tag_id:4);
+CardTag.create(card_id: 1, tag_id:5);
+CountryCard.create(country_id:74,card_id:1)
 
 
 
 
-
-# tags = ["food"]
-
-# tags.each do |tag|
-
-#   newTag = Tag.new
-#   newTag.name = tag
-#   newTag.save
-
-# end
