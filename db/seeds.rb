@@ -325,16 +325,3 @@ CountryCard.create(country_id:210,card_id:13)
 Card.create(title:"Big fish hunting tour", user_id:1, image:"http://i.imgbox.com/3ZFWIUQo.jpg", source:"http://www.travelmag.com/");
 CardTag.create(card_id: 14, tag_id:5);
 CountryCard.create(country_id:210,card_id:14)
-
-#China 44
-
-# Malaysia 130
-
-# Tag.create(name:"Food");
-# Tag.create(name:"Accommodation");
-# Tag.create(name:"Transport");
-# Tag.create(name:"Culture");
-# Tag.create(name:"Entertainment");
-# Tag.create(name:"Shopping");
-# Tag.create(name:"Nature");
-# Tag.create(name:"Free");
